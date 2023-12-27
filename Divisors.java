@@ -8,7 +8,7 @@ public class Divisors {
 		int num = Integer.parseInt(args[0]);
 
 		//checking if i is a divisor of num. if so, print i
-		for(int i=0; i<=num; i++) {
+		for(int i=1; i<=num; i++) {
 			if(num%i==0){
 				System.out.println(i);
 			}
