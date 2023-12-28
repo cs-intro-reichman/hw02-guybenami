@@ -21,7 +21,7 @@ public class OneOfEachStats1 {
 			boolean is_girl = false;
 			int children_count = 0;
 			while(!is_boy || !is_girl) {
-				if(Math.random()>0.5) {
+				if(Math.random()>=0.5) {
 					is_boy = true;
 				}
 				else {

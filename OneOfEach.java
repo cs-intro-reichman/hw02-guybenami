@@ -14,7 +14,7 @@ public class OneOfEach {
 		//while no first boy yet OR no first girl yet
 		while(!is_boy || !is_girl) {
 			//using Math.random() to create 50%-50% odds to get a boy or a girl
-			if(Math.random()>0.5) {
+			if(Math.random()>=0.5) {
 				//setting is_boy to true and print b
 				is_boy = true;
 				System.out.print("b ");

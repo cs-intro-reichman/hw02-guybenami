@@ -39,7 +39,7 @@ public class OneOfEachStats {
 			boolean is_girl = false;
 			int children_count = 0;
 			while(!is_boy || !is_girl) {
-				if(generator.nextDouble()>0.5) {
+				if(generator.nextDouble()>=0.5) {
 					is_boy = true;
 				}
 				else {
